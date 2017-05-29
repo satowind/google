@@ -1,0 +1,51 @@
+html{
+	margin: 0px;
+	padding: 0px;
+}
+body ul li a{
+	color:grey;
+}
+body ul li a:hover {
+	text-decoration: underline !important;
+	background-color: white !important;	
+}
+
+section {
+	padding-top: 150px
+}
+
+ .search {
+	border: 0.5px solid grey; 
+	border-radius: 5px; 
+	width: 400px; 
+	height: 40px;
+	margin-left: 500px;
+	margin-top: 20px;
+}
+
+}
+.but{
+	padding: 20px;
+}
+
+.btn{
+	background-color: rgba(125,125,125,0.1);
+	margin-top: 20px;
+}
+
+.btn:hover {
+	background-color: rgba(125,125,125,0.2);
+	border: 0.5px solid black;
+	color: black;
+}
+
+input {
+	border: none; 
+	width: 370px; 
+	height: 38px;	
+}
+
+.search input [type=text] :focus {
+	box-shadow:none !important;
+	border: none !important;
+}
